@@ -10,7 +10,18 @@ You can get started with your own version of this site with a couple of clicks. 
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Blink-CMS/blink-netlify-typescript-starter)
 
-...or you can clone it down to your local development machine and run build it there before deploying, if you prefer.
+After you deploy to Netlify, add your Blink API key.
+
+To add your Blink API key you to your site :
+
+1. Find you new site under "Sites" in Netlify
+2. Click "Site settings"
+3. Click "Build & deploy"
+4. Scroll down to "Environment" & click edit variables
+5. In the "Key" field enter "blinkApiKey" and in the "Value" field enter your Blink API Key and save.
+6. Refresh the public facing link for your new site and make live changes in your Blink CMS account.
+
+...or you can clone it down to your local development machine and run & build it there before deploying, if you prefer.
 
 ## Installation & Local Development
 
@@ -24,11 +35,11 @@ npm -i package.json
 
 ## Environment Files and Variables
 
-Create a .env file
+Create a .env file and edit the blinkApiKey variable to your blink organizations api key.
 
 ## Running Locally
 
-After you've installed the npm packages per the instructions either use uvicorn via the CLI or a debugger like the one in visual studio
+After you've installed the npm packages per the instructions either use npm via the CLI or a debugger like the one in visual studio
 
 Use the local-dev script to test out the template locally using the netlify-cli tools
 
