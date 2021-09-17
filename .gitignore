@@ -1,0 +1,9 @@
+node_modules
+.env
+netlify/functions/backup.js
+netlify/functions/template.ts
+netlify/functions/backupHTML.ts
+package-lock.json
+dist/js/out.js
+dist/js/out.js.map
+dist/test.js
