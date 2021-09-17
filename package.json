@@ -1,8 +1,8 @@
 {
-  "name": "withinsites",
+  "name": "blink-netlify-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
      "build": "node esbuild.js",
     "local-dev": "netlify dev",
@@ -12,19 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redhills-co/withinsites.git"
+    "url": "git+https://github.com/Blink-CMS/blink-netlify-typescript-starter.git"
   },
   "keywords": [
-    "data",
-    "withinsites",
-    "reports"
+    
   ],
   "author": "richetechguy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redhills-co/withinsites/issues"
+    "url": "https://github.com/Blink-CMS/blink-netlify-typescript-starter/issues"
   },
-  "homepage": "https://github.com/redhills-co/withinsites#readme",
+  "homepage": "https://github.com/Blink-CMS/blink-netlify-typescript-starter#readme",
   "dependencies": {
     "@netlify/functions": "^0.7.2",
     "@types/node": "^16.9.2",
