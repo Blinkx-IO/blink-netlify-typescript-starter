@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "lib": ["DOM", "ESNext"],
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      //"strict": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "stripInternal": true,
+      "noUnusedLocals": true,
+      "experimentalDecorators": true
+    },
+    "exclude": ["../../src"],
+    "include": ["./netlify/functions"],
+}

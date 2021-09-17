@@ -1,0 +1,22 @@
+[dev]
+    #publish = 'dist'
+   # command = "netlify dev"
+    #framework = "#custom"
+    #port=8888
+    #targetPort = 3000
+    #framework = "#custom"
+    #command = "npm run build"
+    publish = 'dist'
+    #framework ="#custom"
+
+#[[redirects]]
+  #from = "/product name=:name cat=:cat productid=:productid"
+  #to = "/product/:name/:cat/:productid 301"
+  #query = {name = ":name",  cat = ":cat", productid=":productid"}
+[build]
+    #framework = "#custom"
+    command = "npm run build"
+    publish ="dist"
+    #targetPort = 3000p
+    #functions = "lambda" #  netlify-lambda reads this
+  

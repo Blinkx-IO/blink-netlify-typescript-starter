@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "target": "ESNext",
+      "module": "ESNEXT",
+      //"lib": ["es5", "es6", "dom", "ESNext.Promise", "ESNext.AsyncIterable"],
+      "allowJs": true,
+      "outDir": "./dist/js",
+      //"rootDir": "src",
+      "strict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      //"resolveJsonModule": true,
+      "useDefineForClassFields": false,
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      //"typeRoots" : ["./types","node_modules/@types"],
+      "removeComments": true,
+    },
+    //"include": ["./src"],
+    //"exclude": ["./netlify/functions"],
+    /*"include": [
+      "node_modules/@types/node/grape.d.ts"
+    ]*/
+}
