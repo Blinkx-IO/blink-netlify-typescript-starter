@@ -2,6 +2,11 @@
 
 This is the Blink CMS Netlify repo.
 
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Blink-CMS/blink-netlify-typescript-starter)
+
+...or you can clone it down to your local development machine and run build it there before deploying, if you prefer.
+
 ## Installation & Local Development
 
 Please insure you have Typescript, and NodeJS v14+ installed on your local environment.
