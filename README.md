@@ -1,6 +1,6 @@
-# Blink CMS
+# Blink X
 
-This is the Blink CMS Netlify repo.
+This is the Blink X Netlify repo.
 A small example site to generate and deploy.
 
 ## Clone and deploy with a click
@@ -19,7 +19,7 @@ To add your Blink API key you to your site :
 3. Click "Build & deploy"
 4. Scroll down to "Environment" & click edit variables
 5. In the "Key" field enter "blinkApiKey" and in the "Value" field enter your Blink API Key and save.
-6. Refresh the public facing link for your new site and make live changes in your Blink CMS account.
+6. Refresh the public facing link for your new site and make live changes in your Blink X account.
 
 ...or you can clone it down to your local development machine and run & build it there before deploying, if you prefer.
 
